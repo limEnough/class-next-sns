@@ -1,11 +1,18 @@
-import styles from "./page.module.css";
+/**
+ * tailwind => 호불호 심하고, 가독성 x
+ * Styled Component or Emotion => Server Component SSR 와 문제
+ * sass
+ * css module => 간단하게 가자
+ * vanila extract => Windows와 문제
+ */
+import styles from "@/app/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/zlogo.png";
+import Logo from "../../../public/zlogo.png";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.left}>
         <Image src={Logo} alt="logo"></Image>
       </div>
@@ -17,7 +24,7 @@ export default function Home() {
           계정 만들기
         </Link>
         <h3>이미 트위터에 가입하셨나요?</h3>
-        <Link href="/i/login" className={styles.login}>
+        <Link href="/login" className={styles.login}>
           로그인
         </Link>
       </div>

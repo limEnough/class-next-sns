@@ -1,3 +1,3 @@
-export default function Home() {
+export default function UserStatusId() {
   return <div></div>;
 }
