@@ -8,7 +8,7 @@
 import styles from "@/app/page.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../../public/zlogo.png";
+import Logo from "../../../public/logo.png";
 
 export default function Home() {
   return (
