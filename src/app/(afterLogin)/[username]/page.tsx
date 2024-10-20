@@ -1,3 +1,3 @@
 export default function User() {
-  return <div></div>;
+  return <main>프로필 페이지</main>;
 }

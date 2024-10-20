@@ -1,3 +1,3 @@
 export default function Search() {
-  return <div></div>;
+  return <main>검색 페이지</main>;
 }

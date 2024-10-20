@@ -1,3 +1,3 @@
 export default function ComposeTweet() {
-  return <div></div>;
+  return <main>트윗 페이지</main>;
 }

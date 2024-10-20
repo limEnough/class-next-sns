@@ -9,6 +9,7 @@
   align-items: flex-end;
   flex-direction: column;
   flex-grow: 1;
+  background: salmon;
 }
 
 .leftSection {
@@ -75,6 +76,7 @@
   height: 100dvh;
   flex-direction: column;
   flex-grow: 1;
+  background: ivory;
 }
 
 .rightSectionInner {
@@ -87,11 +89,13 @@
 .main {
   width: 600px;
   height: 200dvh;
+  background: skyblue;
 }
 
 .rightSection {
   width: 350px;
   height: 100%;
+  background: green;
 }
 
 .search {
